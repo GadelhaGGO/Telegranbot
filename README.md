@@ -1,2 +1,2 @@
-# Telegranbot
+# Telegrambot
 Bot pessoal
