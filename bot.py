@@ -3,8 +3,8 @@ import time
 import os
 
 # Pegando variáveis de ambiente do Railway
-TOKEN = os.getenv("TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_BOT_CHAT")
 URL = f"https://api.telegram.org/bot{TOKEN}/"
 
 # Função para enviar mensagem
